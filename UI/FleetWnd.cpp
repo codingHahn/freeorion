@@ -838,6 +838,9 @@ namespace {
             return;
         }
 
+        } else if (entry.first == METER_SECONDARY_STAT ||
+                   entry.first == METER_TERTIARY_STAT)
+        {
 
         int empire_id = HumanClientApp::GetApp()->EmpireID();
 
